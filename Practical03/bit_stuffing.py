@@ -24,6 +24,6 @@ def bit_stuffing(data):
     return Flag + stuffed_data + Flag
 
 
-data = "01111111101111101111110111111111100111111"
+data = input("Please Enter Your Binary Number:")
 print(f"Original Data: {data}")
 print(f"Stuffed Data: {bit_stuffing(data)}")
